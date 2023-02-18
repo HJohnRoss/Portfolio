@@ -1,0 +1,17 @@
+.about {
+  height: 100vh;
+  text-align: center;
+
+  &__hide {
+    cursor: default;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+  &__header {
+    margin-top: 10rem;
+    font-weight: 300;
+    font-size: 8rem;
+  }
+}

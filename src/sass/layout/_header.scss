@@ -1,0 +1,37 @@
+.header {
+  height: 100vh;
+  background-color: rgba($color-primary, .8);
+  text-align: center;
+
+  &__main {
+    @include absOffCenter
+  }
+
+  &__name,
+  &__arrow {
+
+    &:visited,
+    &:link {
+      text-decoration: none;
+      color: $color-dark;
+      font-family: $font-secondary;
+      font-size: 15rem;
+      transition: all .7s;
+      -webkit-user-select: none; /* Safari */
+      -ms-user-select: none; /* IE 10 and IE 11 */
+      user-select: none; /* Standard syntax */
+    }
+
+    &:hover {
+      color: $color-secondary;
+      cursor: pointer;
+      text-shadow: 0 1rem 2rem rgba($color-dark, .50);
+    }
+  }
+
+  &__description {
+    color: $color-dark;
+    font-size: 3rem;
+    font-family: $font-secondary;
+  }
+}
