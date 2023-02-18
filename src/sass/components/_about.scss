@@ -1,17 +1,95 @@
 .about {
   height: 100vh;
-  text-align: center;
 
   &__hide {
     cursor: default;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+  }
+
+  &__center {
+    text-align: center;
   }
 
   &__header {
-    margin-top: 10rem;
+    margin-top: 15rem;
     font-weight: 300;
-    font-size: 8rem;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+
+    &-2 {
+      font-size: 3rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
   }
+
+
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__description {
+    max-width: 35vw;
+  }
+
+  &__text {
+    font-size: 2rem;
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__box {
+    padding-top: 4rem;
+    text-align: center;
+
+    &--img {
+      height: 15rem;
+      width: 15rem;
+      transition: all .5s;
+
+      &:hover {
+        transform: scale(1.5);
+        filter: drop-shadow(30px 10px 4px $color-primary);
+      }
+
+    }
+
+    &:hover &--img:not(:hover) {
+      transform: scale(.7);
+    }
+
+    &--link {
+
+      &:visited,
+      &:link {
+        text-decoration: none;
+      }
+
+      &:hover {
+        transform: scale(1.5);
+      }
+
+    }
+    &:hover &--link:not(:hover) {
+      transform: scale(.1);
+      opacity: .5;
+    }
+  }
+
+
+
+  &__skills {
+    max-width: 35vw;
+  }
+
 }

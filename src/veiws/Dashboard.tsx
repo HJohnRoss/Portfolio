@@ -1,37 +1,38 @@
 import React from "react";
 import Header from "../components/Header";
 import About from "../components/About";
+import Portfolio from "../components/Portfolio";
 
 const Dashboard = () => {
   return (
     <>
-      <nav className="navbar1">
-        <div className="navbar1__background"></div>
-        <h1 className="navbar1__name">John Ross</h1>
+      <nav className="navbar">
+        <div className="navbar__background"></div>
+        <h1 className="navbar__name">John Ross</h1>
 
-        <ul className="navbar1__list">
+        <ul className="navbar__list">
           <li>
-            <a id="active" className="navbar1__link" href="#home">
+            <a id="active" className="navbar__link" href="#home">
               Home
             </a>
           </li>
           <li>
-            <a className="navbar1__link" href="#about">
+            <a className="navbar__link" href="#about">
               About
             </a>
           </li>
           <li>
-            <a className="navbar1__link" href="#portfolio">
+            <a className="navbar__link" href="#portfolio">
               Portfolio
             </a>
           </li>
           <li>
-            <a className="navbar1__link" href="#contact">
+            <a className="navbar__link" href="#contact">
               Contact
             </a>
           </li>
           <li>
-            <a className="navbar1__link" href="#resume">
+            <a className="navbar__link" href="#resume">
               Resume
             </a>
           </li>
@@ -40,6 +41,8 @@ const Dashboard = () => {
       <Header />
 
       <About />
+
+      <Portfolio />
     </>
   )
 }
