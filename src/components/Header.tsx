@@ -2,8 +2,8 @@ import React from "react"
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="header__main" id="home">
+    <header className="header" id="home">
+      <div className="header__main">
         <a href="#about" className="header__name">
           John Ross
         </a>

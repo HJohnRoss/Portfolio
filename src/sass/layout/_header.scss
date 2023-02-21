@@ -3,6 +3,10 @@
   background-color: rgba($color-primary, .8);
   text-align: center;
 
+  &__hide {
+    @include emptySpace
+  }
+
   &__main {
     @include absOffCenter
   }

@@ -16,7 +16,7 @@ body {
   line-height: 1.6; }
 
 .about {
-  height: 100vh; }
+  min-height: 100vh; }
   .about__hide {
     cursor: default;
     -webkit-user-select: none;
@@ -69,10 +69,54 @@ body {
   .about__skills {
     max-width: 35vw; }
 
+.portfolio {
+  min-height: 100vh;
+  text-align: center; }
+  .portfolio__hide {
+    cursor: default;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */ }
+  .portfolio__header {
+    margin-top: 15rem;
+    font-weight: 300;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem; }
+
+.contact {
+  min-height: 100vh;
+  text-align: center; }
+  .contact__hide {
+    cursor: default;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */ }
+  .contact__header {
+    margin-top: 15rem;
+    font-weight: 300;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem; }
+
 .header {
   height: 100vh;
   background-color: rgba(8, 217, 214, 0.8);
   text-align: center; }
+  .header__hide {
+    cursor: default;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */ }
   .header__main {
     position: absolute;
     top: 45%;

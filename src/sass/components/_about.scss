@@ -1,14 +1,8 @@
 .about {
-  height: 100vh;
+  min-height: 100vh;
 
   &__hide {
-    cursor: default;
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10 and IE 11 */
-    user-select: none;
-    /* Standard syntax */
+    @include emptySpace
   }
 
   &__center {
