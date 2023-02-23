@@ -29,7 +29,6 @@ body {
     text-align: center; }
   .about__header {
     margin-top: 15rem;
-    font-weight: 300;
     font-size: 5.5rem;
     text-transform: uppercase;
     margin-bottom: 5rem; }
@@ -70,8 +69,10 @@ body {
     max-width: 35vw; }
 
 .portfolio {
-  min-height: 100vh;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
   .portfolio__hide {
     cursor: default;
     -webkit-user-select: none;
@@ -82,10 +83,78 @@ body {
     /* Standard syntax */ }
   .portfolio__header {
     margin-top: 15rem;
-    font-weight: 300;
     font-size: 5.5rem;
     text-transform: uppercase;
     margin-bottom: 5rem; }
+  .portfolio__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .portfolio__button {
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    background-color: transparent;
+    color: #FF2E63;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: .3rem;
+    margin-right: 3rem;
+    transition: all .3s; }
+    .portfolio__button:not(:last-child) {
+      margin-bottom: 3rem; }
+    .portfolio__button:hover, .portfolio__button:focus {
+      color: #08D9D6; }
+    .portfolio__button:active {
+      transform: scale(0.99); }
+    .portfolio__button button:hover,
+    .portfolio__button button:focus {
+      background: #08D9D6; }
+    .portfolio__button button:focus {
+      outline: 1px solid #fff;
+      outline-offset: -4px; }
+    .portfolio__button-active {
+      color: #08D9D6; }
+  .portfolio__projects {
+    display: flex;
+    justify-content: center; }
+  .portfolio__project {
+    padding: 3rem;
+    max-width: 75vw;
+    box-shadow: 1rem 1rem 2rem 0.4rem rgba(37, 42, 52, 0.4);
+    border-radius: 3px; }
+    .portfolio__project-header {
+      font-size: 4rem;
+      font-weight: 400; }
+      .portfolio__project-header:not(:first-child) {
+        margin-top: 1rem; }
+    .portfolio__project-text {
+      font-size: 1.5rem; }
+    .portfolio__project-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5rem; }
+    .portfolio__project-video {
+      background-color: green;
+      width: 50px;
+      height: 50px; }
+    .portfolio__project-btn:visited, .portfolio__project-btn:link {
+      text-decoration: none;
+      color: #EAEAEA;
+      background-color: #FF2E63;
+      font-size: 2rem;
+      transition: all .2s;
+      padding: 1rem 2rem;
+      border-radius: .3rem; }
+    .portfolio__project-btn:hover {
+      color: #08D9D6;
+      text-shadow: 0 0.5rem 1rem rgba(37, 42, 52, 0.2);
+      transform: translateY(-3px); }
+    .portfolio__project-btn:active, .portfolio__project-btn:focus {
+      outline: none;
+      transform: translateY(-1px);
+      text-shadow: 0 0.5rem 1rem rgba(37, 42, 52, 0.2); }
 
 .contact {
   min-height: 100vh;
