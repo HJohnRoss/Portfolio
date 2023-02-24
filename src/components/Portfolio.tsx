@@ -28,7 +28,7 @@ const Portfolio = () => {
           <p className="portfolio__project-text">Java - Spring - Spring Boot - Stripe API - JavaScript - CSS - JSP - MySQL - Bycrypt - Json - Gson</p>
 
           <div className="portfolio__project-container">
-            <iframe className="portfolio__project-video" src="https://www.youtube.com/embed/ohPSpBWbea4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; frameborder;" allowFullScreen></iframe>
+            <iframe className="portfolio__project-video" src="https://www.youtube.com/embed/ohPSpBWbea4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; frameborder;"></iframe>
 
             <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/Radiant-Apparel" target="_blank">Veiw Source Code</a>
           </div>
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <p className="portfolio__project-text"> JavaScript - React - Node.js - Mongodb - Mongoose - Chart.Js - Express</p>
 
           <div className="portfolio__project-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8Rbz1y0uf8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8Rbz1y0uf8o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"></iframe>
 
             <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/BudgetApp" target="_blank">Veiw Source Code</a>
           </div>
@@ -64,7 +64,7 @@ const Portfolio = () => {
           <p className="portfolio__project-text">Python - HTML - CSS - Flask - MySQL - Jinja2 - JavaScript - Bcrypt - Ajax - Stripe API</p>
 
           <div className="portfolio__project-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Iyox5UmuUvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Iyox5UmuUvc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"></iframe>
 
             <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/PokeOrUs" target="_blank">Veiw Source Code</a>
           </div>

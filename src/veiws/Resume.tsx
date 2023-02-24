@@ -24,7 +24,7 @@ const Resume = () => {
 
         <p className="resume__text">Reach out to my by linkedIn. View or download the resume.</p>
         
-        <iframe className="resume__pdf" src={JohnResume} frameborder="0"></iframe>
+        <iframe className="resume__pdf" src={JohnResume}></iframe>
       </div>
 
       <Footer />
