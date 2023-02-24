@@ -30,7 +30,7 @@ const Portfolio = () => {
           <div className="portfolio__project-container">
             <iframe className="portfolio__project-video" src="https://www.youtube.com/embed/ohPSpBWbea4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; frameborder;"></iframe>
 
-            <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/Radiant-Apparel" target="_blank">Veiw Source Code</a>
+            <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/Radiant-Apparel" target="_blank">View Source Code</a>
           </div>
         </div>
         <div className="portfolio__project" style={
@@ -48,7 +48,7 @@ const Portfolio = () => {
           <div className="portfolio__project-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/8Rbz1y0uf8o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"></iframe>
 
-            <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/BudgetApp" target="_blank">Veiw Source Code</a>
+            <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/BudgetApp" target="_blank">View Source Code</a>
           </div>
         </div>
         <div className="portfolio__project" style={
@@ -66,7 +66,7 @@ const Portfolio = () => {
           <div className="portfolio__project-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Iyox5UmuUvc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"></iframe>
 
-            <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/PokeOrUs" target="_blank">Veiw Source Code</a>
+            <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/PokeOrUs" target="_blank">View Source Code</a>
           </div>
         </div>
       </div>
