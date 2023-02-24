@@ -11,7 +11,7 @@ const Dashboard = () => {
     <>
       <nav className="navbar">
         <div className="navbar__background"></div>
-        <a className="navbar__name" href="/#home">John Ross</a>
+        <a className="navbar__name" href="#home">John Ross</a>
 
         <ul className="navbar__list">
           <li>
