@@ -12,7 +12,7 @@ const Resume = () => {
 
         <ul className="navbar__list">
           <li>
-            <Link id="active" className="navbar__link" to="/">
+            <Link id="active" className="navbar__link" to="/Portfolio">
               Home
             </Link>
           </li>
