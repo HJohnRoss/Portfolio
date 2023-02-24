@@ -1,7 +1,8 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5rem;
   color: $color-white;
   position: sticky;
   background: rgba($color-primary, .8);
@@ -9,16 +10,24 @@
   z-index: 100;
 
   &__name {
-    font-family: $font-secondary;
-    font-size: 5.5rem;
-    transition: all .7s;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+
+    &:link,
+    &:visited {
+      font-family: $font-secondary;
+      color: $color-dark;
+      font-size: 5.5rem;
+      transition: all .7s;
+      text-decoration: none;
+      -webkit-user-select: none;
+      /* Safari */
+      -ms-user-select: none;
+      /* IE 10 and IE 11 */
+      user-select: none;
+      /* Standard syntax */
+    }
 
     &:hover {
       color: $color-secondary;
-      cursor: pointer;
       text-shadow: 0 1rem 2rem rgba($color-dark, .50);
     }
   }
@@ -41,9 +50,12 @@
       text-transform: uppercase;
       color: $color-white;
       transition: all .7s;
-      -webkit-user-select: none; /* Safari */
-      -ms-user-select: none; /* IE 10 and IE 11 */
-      user-select: none; /* Standard syntax */
+      -webkit-user-select: none;
+      /* Safari */
+      -ms-user-select: none;
+      /* IE 10 and IE 11 */
+      user-select: none;
+      /* Standard syntax */
     }
 
     &:hover {

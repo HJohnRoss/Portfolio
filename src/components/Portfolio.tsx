@@ -28,7 +28,7 @@ const Portfolio = () => {
           <p className="portfolio__project-text">Java - Spring - Spring Boot - Stripe API - JavaScript - CSS - JSP - MySQL - Bycrypt - Json - Gson</p>
 
           <div className="portfolio__project-container">
-            <div className="portfolio__project-video"></div>
+            <iframe className="portfolio__project-video" src="https://www.youtube.com/embed/ohPSpBWbea4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; frameborder;" allowFullScreen></iframe>
 
             <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/Radiant-Apparel" target="_blank">Veiw Source Code</a>
           </div>
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <p className="portfolio__project-text"> JavaScript - React - Node.js - Mongodb - Mongoose - Chart.Js - Express</p>
 
           <div className="portfolio__project-container">
-            <div className="portfolio__project-video"></div>
+            <iframe className="portfolio__project-video" src="https://www.youtube.com/embed/ohPSpBWbea4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen; frameborder;" allowFullScreen></iframe>
 
             <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/BudgetApp" target="_blank">Veiw Source Code</a>
           </div>
@@ -57,14 +57,15 @@ const Portfolio = () => {
           <h2 className="portfolio__project-header">Poké or Us</h2>
 
           <p className="portfolio__project-text">
-            As a Full-Stack developer with always wanting to make code more efficient. I programmed a Ecommerce website letting users add to a cart and check out. Radiant Apperal is a full-stack Java website that features users to create an account search items, search from categories of items, allow users to add products to a wishlist, users can create reviews for products, let users create and checkout with a cart integrating Stripe API, and an admin user can create and delete products from the website and also on Stripe API.
+            As a Full-Stack Developer I created a Web Application to let users favorite and share their favorite pokémon with other, Also it has a Ecommerce portion of the web application to buy products of the users favorite pokémon. This web application is a place where users can not only share about their favorite pokémon but also buy products of their favorites all in one place!
           </p>
 
           <h3 className="portfolio__project-header">Technologies Used:</h3>
-          <p className="portfolio__project-text">Java - Spring - Spring Boot - Stripe API - JavaScript - CSS - JSP - MySQL - Bycrypt - Json - Gson</p>
+          <p className="portfolio__project-text">Python - HTML - CSS - Flask - MySQL - Jinja2 - JavaScript - Bcrypt - Ajax - Stripe API</p>
 
           <div className="portfolio__project-container">
-            <div className="portfolio__project-video"></div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Iyox5UmuUvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" allowfullscreen></iframe>
+
             <a className="portfolio__project-btn" href="https://github.com/HJohnRoss/PokeOrUs" target="_blank">Veiw Source Code</a>
           </div>
         </div>

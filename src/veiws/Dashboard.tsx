@@ -4,13 +4,14 @@ import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import Footer from "../components/footer";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
     <>
       <nav className="navbar">
         <div className="navbar__background"></div>
-        <h1 className="navbar__name">John Ross</h1>
+        <Link className="navbar__name" to="/#home">John Ross</Link>
 
         <ul className="navbar__list">
           <li>
@@ -34,9 +35,9 @@ const Dashboard = () => {
             </a>
           </li>
           <li>
-            <a className="navbar__link" href="#resume">
+            <Link className="navbar__link" to="/resume">
               Resume
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import Dashboard from './veiws/Dashboard'
+import { Routes, Route } from 'react-router-dom'
+import Resume from './veiws/Resume'
 
 function App() {
 
   return (
-    <div>
-      <Dashboard/>
-    </div>
+    <Routes>
+      <Route path='/' element={<Dashboard/>}/>
+      <Route path='/resume' element={<Resume/>}/>
+    </Routes>
   )
 }
 

@@ -90,12 +90,12 @@
       display: flex;
       justify-content: space-between;
       margin-top: 5rem;
+      align-items: end;
     }
 
     &-video {
-      background-color: green;
-      width: 50px;
-      height: 50px;
+      height: 31.5rem;
+      width: 56rem;
     }
 
     &-btn {
@@ -119,9 +119,9 @@
 
       &:active,
       &:focus {
-          outline: none;
-          transform: translateY(-1px);
-          text-shadow: 0 .5rem 1rem rgba($color-dark,.2);
+        outline: none;
+        transform: translateY(-1px);
+        text-shadow: 0 .5rem 1rem rgba($color-dark, .2);
       }
     }
   }
