@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     @include respond(tab-land) {
       flex-direction: row;
     }
@@ -72,6 +73,7 @@
   &__projects {
     display: flex;
     justify-content: center;
+
     @include respond(tab-land) {
       display: block;
       margin: 0 auto;
@@ -86,6 +88,10 @@
 
     @include respond(tab-land) {
       max-width: 90vw;
+    }
+
+    @include respond(phone) {
+      max-width: 100vw;
     }
 
     &-header {
@@ -106,6 +112,7 @@
       justify-content: space-between;
       margin-top: 5rem;
       align-items: end;
+
       @include respond(tab-land) {
         display: block;
       }
@@ -114,6 +121,11 @@
     &-video {
       max-height: 31.5rem;
       max-width: 56rem;
+
+      @include respond(tab-land) {
+        max-height: 42.6rem;
+        max-width: 24rem;
+      }
     }
 
     &-btn {

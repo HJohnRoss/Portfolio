@@ -13,6 +13,11 @@
     justify-content: space-evenly;
     padding: 2rem;
   }
+  @include respond(phone) {
+    gap: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 
   &__name {
 
@@ -51,6 +56,12 @@
       padding: 2rem;
       width: 100vw;
     }
+
+    @include respond(phone) {
+      gap: .2rem;
+      padding: 0;
+      justify-content: center;
+    }
   }
 
   &__link {
@@ -70,6 +81,10 @@
       /* IE 10 and IE 11 */
       user-select: none;
       /* Standard syntax */
+      @include respond(phone) {
+        padding: .3rem .6rem;
+        font-size: 1.5rem;
+      }
     }
 
     &:hover {
