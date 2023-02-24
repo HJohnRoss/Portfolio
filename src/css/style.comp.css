@@ -188,12 +188,12 @@ body {
         .portfolio__project-container {
           display: block; } }
     .portfolio__project-video {
-      max-height: 31.5rem;
-      max-width: 56rem; }
+      min-height: 31.5rem;
+      min-width: 56rem; }
       @media (max-width: 75em) {
         .portfolio__project-video {
-          max-height: 42.6rem;
-          max-width: 24rem; } }
+          min-width: 42.6rem;
+          min-height: 24rem; } }
     @media (max-width: 75em) {
       .portfolio__project-btn {
         display: inline-block; } }
