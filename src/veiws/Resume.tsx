@@ -8,7 +8,7 @@ const Resume = () => {
     <>
       <nav className="navbar">
         <div className="navbar__background"></div>
-        <Link className="navbar__name" to="/">John Ross</Link>
+        <Link className="navbar__name" to="/Portfolio">John Ross</Link>
 
         <ul className="navbar__list">
           <li>

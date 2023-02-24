@@ -35,7 +35,7 @@ const Dashboard = () => {
             </a>
           </li>
           <li>
-            <Link className="navbar__link" to="/resume">
+            <Link className="navbar__link" to="/Portfolio/resume">
               Resume
             </Link>
           </li>
