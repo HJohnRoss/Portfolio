@@ -8,9 +8,17 @@
   background: rgba($color-primary, .8);
   top: 0;
   z-index: 100;
+  @include respond(tab-port) {
+    gap: 0;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
 
   &__name {
 
+    @include respond(tab-port) {
+      display: none;
+    }
     &:link,
     &:visited {
       font-family: $font-secondary;
@@ -37,6 +45,12 @@
     list-style: none;
     gap: 1rem;
     margin-top: 10px;
+    @include respond(tab-port) {
+      gap: 0;
+      justify-content: space-evenly;
+      padding: 2rem;
+      width: 100vw;
+    }
   }
 
   &__link {

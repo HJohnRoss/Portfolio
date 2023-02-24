@@ -27,16 +27,29 @@
   &__container {
     display: flex;
     justify-content: space-evenly;
+
+    @include respond(tab-land) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
   }
 
   &__description {
     max-width: 35vw;
+    @include respond(tab-land) {
+      max-width: 90vw;
+    }
   }
 
   &__text {
     font-size: 2rem;
 
     &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+
+    @include respond(tab-land) {
       margin-bottom: 3rem;
     }
   }
@@ -83,6 +96,9 @@
 
   &__skills {
     max-width: 35vw;
+    @include respond(tab-land) {
+      max-width: 90vw;
+    }
   }
 
 }

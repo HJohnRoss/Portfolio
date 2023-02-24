@@ -18,17 +18,31 @@
     justify-content: space-evenly;
     max-height: min-content;
 
+    @include respond(tab-land) {
+      display: block;
+    }
+
     &-img {
-      max-width: 25%;
+      max-width: 40%;
+
+      @include respond(tab-land) {
+        display: none;
+      }
     }
 
   }
 
   &__form {
     background-color: rgba(#6b6666, .2);
-    min-width: 25%;
+    min-width: 40%;
     padding: 2rem;
     min-height: 70vh;
+
+    @include respond(tab-land) {
+      max-width: 70%;
+      min-width: none;
+      margin: 0 auto;
+    }
 
     &-label {
       display: block;
