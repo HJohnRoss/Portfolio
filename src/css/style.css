@@ -327,3 +327,38 @@ body {
     border-radius: 100px;
     transform: translateY(-5px);
     box-shadow: 0 1rem 2rem rgba(37, 42, 52, 0.15); }
+
+.footer {
+  margin-top: 5rem;
+  background-color: #08D9D6;
+  padding: 5rem; }
+  .footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem; }
+  .footer__name {
+    display: inline;
+    font-family: "Caveat", cursive;
+    color: #252A34;
+    font-size: 5.5rem;
+    transition: all .7s;
+    text-decoration: none;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */ }
+    .footer__name:hover {
+      color: #FF2E63;
+      text-shadow: 0 1rem 2rem rgba(37, 42, 52, 0.5); }
+  .footer__icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-between; }
+  .footer__icon {
+    color: #252A34; }
+  .footer__copyright {
+    text-align: center;
+    font-size: 1.2rem; }

@@ -12,11 +12,11 @@ const Contact = () => {
 
         <form className="contact__form" action="https://formspree.io/f/xzbqrwaz" method="POST">
           <label className="contact__form-label" htmlFor="name">Name</label>
-          <input className="contact__form-input" type="text" name="name" />
+          <input className="contact__form-input" type="text" name="name" required />
           <label className="contact__form-label" htmlFor="email">Email</label>
-          <input className="contact__form-input" type="email" name="email" />
+          <input className="contact__form-input" type="email" name="email" required />
           <label className="contact__form-label" htmlFor="message">Message</label>
-          <textarea className="contact__form-textarea contact__form-input" name="message" id=""></textarea>
+          <textarea className="contact__form-textarea contact__form-input" name="message" id="" required></textarea>
           <button className="contact__form-btn" type="submit">Send</button>
         </form>
       </div>

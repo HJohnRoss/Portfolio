@@ -1,0 +1,45 @@
+.footer {
+  margin-top: 5rem;
+  background-color: $color-primary;
+  padding: 5rem;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  
+  &__name {
+    display: inline;
+    font-family: $font-secondary;
+    color: $color-dark;
+    font-size: 5.5rem;
+    transition: all .7s;
+    text-decoration: none;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+    
+    &:hover {
+      color: $color-secondary;
+      text-shadow: 0 1rem 2rem rgba($color-dark, .50);
+    }
+  }
+  &__icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__icon {
+    color: $color-dark;
+  }
+
+  &__copyright {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}

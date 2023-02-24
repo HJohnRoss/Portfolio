@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import JohnResume from "../pdf/resume.pdf";
+import Footer from "../components/footer";
 
 const Resume = () => {
   return (
@@ -26,6 +27,7 @@ const Resume = () => {
         <iframe className="resume__pdf" src={JohnResume} frameborder="0"></iframe>
       </div>
 
+      <Footer />
     </>
   )
 }
