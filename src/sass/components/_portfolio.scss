@@ -119,12 +119,12 @@
     }
 
     &-video {
-      max-height: 31.5rem;
-      max-width: 56rem;
+      min-height: 31.5rem;
+      min-width: 56rem;
 
       @include respond(tab-land) {
-        max-height: 42.6rem;
-        max-width: 24rem;
+        min-width: 42.6rem;
+        min-height: 24rem;
       }
     }
 
