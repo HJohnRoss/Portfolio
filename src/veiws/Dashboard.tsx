@@ -4,7 +4,6 @@ import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import Footer from "../components/footer";
-import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -33,11 +32,6 @@ const Dashboard = () => {
             <a className="navbar__link" href="#contact">
               Contact
             </a>
-          </li>
-          <li>
-            <Link className="navbar__link" to="/Portfolio/resume">
-              Resume
-            </Link>
           </li>
         </ul>
       </nav>

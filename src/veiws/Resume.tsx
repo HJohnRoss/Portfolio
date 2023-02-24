@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import JohnResume from "../pdf/resume.pdf";
 import Footer from "../components/footer";
 
 const Resume = () => {
   return (
     <>
-      <nav className="navbar">
+      {/* <nav className="navbar">
         <div className="navbar__background"></div>
         <Link className="navbar__name" to="/Portfolio">John Ross</Link>
 
@@ -27,7 +26,7 @@ const Resume = () => {
         <iframe className="resume__pdf" src={JohnResume}></iframe>
       </div>
 
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
