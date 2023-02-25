@@ -11,17 +11,17 @@ const Portfolio = () => {
 
       <div className="portfolio__projects">
         <div className="portfolio__buttons">
-          <button className={project == 1 ? "portfolio__button portfolio__button-active" : "portfolio__button"} onClick={e => setProject(1)}>Radiant Apperal</button>
+          <button className={project == 1 ? "portfolio__button portfolio__button-active" : "portfolio__button"} onClick={e => setProject(1)}>Radiant Apparel</button>
           <button className={project == 2 ? "portfolio__button portfolio__button-active" : "portfolio__button"} onClick={e => setProject(2)}>Budget Guard</button>
           <button className={project == 3 ? "portfolio__button portfolio__button-active" : "portfolio__button"} onClick={e => setProject(3)}>Poké or Us</button>
         </div>
         <div className="portfolio__project" style={
           project == 1 ? {} : { display: "none" }
         }>
-          <h2 className="portfolio__project-header">Radiant Apperal</h2>
+          <h2 className="portfolio__project-header">Radiant Apparel</h2>
 
           <p className="portfolio__project-text">
-            As a Back-End developer with always wanting to make code more efficient. I programmed a Ecommerce website letting users add to a cart and check out. Radiant Apperal is a full-stack Java website that features users to create an account search items, search from categories of items, allow users to add products to a wishlist, users can create reviews for products, let users create and checkout with a cart integrating Stripe API, and an admin user can create and delete products from the website and also on Stripe API.
+            As a Back-End developer with always wanting to make code more efficient. I programmed a Ecommerce website letting users add to a cart and check out. Radiant Apparel is a full-stack Java website that features users to create an account search items, search from categories of items, allow users to add products to a wishlist, users can create reviews for products, let users create and checkout with a cart integrating Stripe API, and an admin user can create and delete products from the website and also on Stripe API.
           </p>
 
           <h3 className="portfolio__project-header">Technologies Used:</h3>
