@@ -13,7 +13,7 @@ const About = () => {
           <h5 className="about__header-2">What to know?</h5>
 
           <p className="about__text">
-            Hello, my name is John Ross. I am a full stack developer from Las Vegas. I have a passion for building websites and solving real-world problems. I am striving to produce quality and effiecient code so I can make an impact on the world. This results in me coding everyday for countless amounts of hours to become a better version of myself every day. Other than code I am either playing video games or spending time with my family and dogs.
+            Hello, my name is John Ross. I am a full stack developer from Las Vegas. I have a passion for building websites and solving real-world problems. I am striving to produce quality and efficient code so I can make an impact on the world. This results in me coding everyday for countless amounts of hours to become a better version of myself every day. Other than code I am either playing video games or spending time with my family and dogs.
           </p>
           <p className="about__text about--text-2">I am looking for opportunties to grow myself and bring people together with code. Please reach out to me if you are interested doing a collab with me and or job opportunties.
           </p>
