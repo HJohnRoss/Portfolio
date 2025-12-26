@@ -1,0 +1,204 @@
+[
+	{
+		"id": 0,
+		"homePage": true,
+		"title": "LCB Clone V2 (Learning Project)",
+		"goal": "Learn maintainable ASP.NET Core patterns using a realistic application domain.",
+		"bullets": [
+			"Blazor frontend + .NET backend + shared DTO project.",
+			"SQL database with Entity Framework Core (EF Core).",
+			"Currently uses Minimal APIs; planning a transition to controllers as learning progresses."
+		],
+		"links": [
+			{
+				"label": "Source Code",
+				"url": "https://github.com/HJohnRoss/LCB_Clone_V2"
+			}
+		],
+		"tags": [
+			".NET",
+			"Blazor",
+			"SQL"
+		],
+		"images": []
+	},
+	{
+		"id": 1,
+		"homePage": true,
+		"title": "Digital Signage Tools",
+		"goal": "Provide clear “always-on” time and weather screens when no meeting content is running.",
+		"bullets": [
+			"Displays time and weather when there is no active meeting running in the hearing room.",
+			"Runs 24/7 on the internal display system."
+		],
+		"links": [
+			{
+				"label": "Live: Weather (Las Vegas)",
+				"url": "https://hjohnross.github.io/Weather_LCB/"
+			},
+			{
+				"label": "Source Code: Weather (Las Vegas)",
+				"url": "https://github.com/HJohnRoss/Weather_LCB"
+			},
+			{
+				"label": "Live: Weather (Carson City)",
+				"url": "https://hjohnross.github.io/Weather_LCB_CC/"
+			},
+			{
+				"label": "Source Code: Weather (Carson City)",
+				"url": "https://github.com/HJohnRoss/Weather_LCB_CC"
+			},
+			{
+				"label": "Live: Clock",
+				"url": "https://hjohnross.github.io/Clock_LCB/"
+			},
+			{
+				"label": "Source Code: Clock",
+				"url": "https://github.com/HJohnRoss/Clock_LCB"
+			}
+		],
+		"tags": [
+			"Static",
+			"Digital Signage",
+			"BrightSign"
+		],
+		"images": []
+	},
+	{
+		"id": 2,
+		"homePage": true,
+		"title": "Hearing Room Testing (Documentation)",
+		"goal": "Documentation tool for recording microphone and camera issues during hearing room testing.",
+		"bullets": [
+			"Supports printing to PDF for consistent record-keeping.",
+			"Includes hearing room microphone layouts for documenting problems.",
+			"Displays an indicator when a microphone or camera is flagged."
+		],
+		"links": [],
+		"tags": [
+			"Static",
+			"Documentation",
+			"Tool"
+		],
+		"images": []
+	},
+	{
+		"id": 3,
+		"homePage": false,
+		"title": "Information Bar (Digital Signage Text)",
+		"goal": "Provide a simple, controlled way to update digital signage text using a text file.",
+		"bullets": [
+			"Boss-requested signage utility that reads a .txt file and displays its contents as an information bar.",
+			"Text updates are made by editing a single file in the repository and redeploying via GitHub Pages.",
+			"Designed for clarity, low complexity, and predictable updates in an internal display environment."
+		],
+		"links": [
+			{
+				"label": "Live",
+				"url": "https://hjohnross.github.io/InformationBar_LCB/"
+			},
+			{
+				"label": "Source Code",
+				"url": "https://github.com/HJohnRoss/InformationBar_LCB"
+			}
+		],
+		"tags": [
+			"Static",
+			"Digital Signage",
+			"Tool"
+		],
+		"images": {}
+	},
+	{
+		"id": 4,
+		"homePage": false,
+		"title": "Home Lab",
+		"goal": "Learn practical networking fundamentals: routing, VPN, DNS, and self-hosted services.",
+		"bullets": [
+			"Configured a VyOS router from scratch.",
+			"Set up and managed a WireGuard VPN on VyOS for remote access to internal services.",
+			"Configured a Raspberry Pi as a local DNS server for ad blocking.",
+			"Set up a home server to host multiple services on the local network."
+		],
+		"links": [],
+		"tags": [
+			"Networking"
+		],
+		"images": []
+	},
+	{
+		"id": 5,
+		"homePage": false,
+		"title": "Radiant-Apparel e-Commerce App",
+		"goal": "Demonstrate backend and database fundamentals with a real-world commerce application.",
+		"bullets": [
+			"Java-based e-commerce platform with MVC architecture.",
+			"Implemented product catalog, shopping cart, and purchase flow.",
+			"Stripe integration for payments and secure order processing."
+		],
+		"links": [
+			{
+				"label": "Source Code",
+				"url": "https://github.com/HJohnRoss/Radiant-Apparel"
+			}
+		],
+		"tags": [
+			"Java",
+			"FullStack",
+			"eCommerce",
+			"Stripe",
+			"Springboot"
+		],
+		"images": []
+	},
+	{
+		"id": 6,
+		"homePage": false,
+		"title": "Budget Tracking and Visualization",
+		"goal": "Track budgets, categories, and transactions using a persistent backend and interactive dashboard.",
+		"bullets": [
+			"Full-stack application with a Node.js backend and JavaScript frontend.",
+			"Stores budget categories and transactions in a database.",
+			"Interactive dashboard updates dynamically as data changes."
+		],
+		"links": [
+			{
+				"label": "Source Code",
+				"url": "https://github.com/HJohnRoss/BudgetApp"
+			}
+		],
+		"tags": [
+			"Node.js",
+			"JavaScript",
+			"FullStack"
+		],
+		"images": []
+	},
+	{
+		"id": 7,
+		"homePage": false,
+		"title": "PokeOrUs",
+		"goal": "Build a full-stack Python web application integrating external APIs and Stripe for transactional features.",
+		"bullets": [
+			"Full-stack application with a Python backend using Flask and a JavaScript-enabled frontend.",
+			"Consumes data from a public API and renders dynamic views using Flask templates.",
+			"Integrated Stripe for payment processing as part of the application workflow.",
+			"Demonstrates backend/frontend integration and third-party service usage."
+		],
+		"links": [
+			{
+				"label": "Source Code",
+				"url": "https://github.com/HJohnRoss/PokeOrUs"
+			}
+		],
+		"tags": [
+			"Python",
+			"Flask",
+			"JavaScript",
+			"API",
+			"Stripe",
+			"FullStack"
+		],
+		"images": []
+	}
+]

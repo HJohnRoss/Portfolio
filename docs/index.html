@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>John Ross - Home</title>
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+	<nav id="nav">
+		<h1 class="nav-h3">John Ross</h1>
+		<div class="nav-container">
+			<a class="nav-link nav-link-curr" href="/">Home</a>
+			<a class="nav-link" href="./projects.html">Projects</a>
+			<a class="nav-link" href="./resume.html">Resume</a>
+		</div>
+	</nav>
+
+
+	<section class="card card-section">
+		<h3>IT Technician IV - AVH</h3>
+		<p>
+			I support live legislative operations and public meetings at the Nevada Legislative Counsel Bureau and have
+			built small, safe web tools the improve internal workflows.
+			I'm actively developing C# and ASP.NET Core skills while continuing to build proficiency in C# and ASP.NET
+			Core through structured study and hands-on projects.
+		</p>
+	</section>
+
+	<section class="card card-section">
+		<h3>Current Role</h3>
+		<ul>
+			<li>
+				Camera Switching during Legislative meetings and Government agency meetings
+			</li>
+			<li>
+				Troubleshooting and documenting A/V specific issues
+			</li>
+			<li>
+				Developing and maintaining widgets and a documenting app to improve workflows
+			</li>
+		</ul>
+	</section>
+
+	<section class="card card-section">
+		<h3>Focus Areas</h3>
+		<ul>
+			<li>
+				Digital signage tooling (brightsign + static widgets)
+			</li>
+			<li>
+				Workflow documentation (Next.JS static site)
+			</li>
+			<li>
+				Learning: C# / ASP.NET core (structured study and project)
+				<ul class="focusAreas-ul">
+					<li>
+						Book: ASP.NET Core in Action Third Edition
+					</li>
+					<li>
+						Project: <a target="_blank" href="https://github.com/HJohnRoss/LCB_Clone_V2">LCB Clone</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Featured Projects</h3>
+
+		<div class="projects" id="featuredProjects"></div>
+	</section>
+
+	<footer>
+		<ul>
+			<li>
+				<a class="footer-link" target="_blank" href="mailto:rossjohn936@gmail.com">
+					Email
+				</a>
+			</li>
+			<li>
+				<a class="footer-link" target="_blank" href="https://github.com/HJohnRoss">
+					Github
+				</a>
+			</li>
+			<li>
+				<a class="footer-link" target="_blank" href="https://www.linkedin.com/in/hjohnross/">
+					Linkedin
+				</a>
+			</li>
+		</ul>
+	</footer>
+
+	<script src="./scripts/projects.js"></script>
+	<script>
+		initProjects({containerId: "featuredProjects", featuredOnly: true})
+	</script>
+</body>
+
+</html>

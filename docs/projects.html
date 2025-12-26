@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>John Ross - Projects</title>
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+	<nav id="nav">
+		<h1 class="nav-h3">John Ross</h1>
+		<div class="nav-container">
+			<a class="nav-link" href="./">Home</a>
+			<a class="nav-link nav-link-curr" href="./projects.html">Projects</a>
+			<a class="nav-link" href="./resume.html">Resume</a>
+		</div>
+	</nav>
+
+	<section>
+		<h3>Projects</h3>
+
+		<div class="projects" id="projects"></div>
+	</section>
+
+	<footer>
+		<ul>
+			<li>
+				<a class="footer-link" target="_blank" href="mailto:rossjohn936@gmail.com">
+					Email
+				</a>
+			</li>
+			<li>
+				<a class="footer-link" target="_blank" href="https://github.com/HJohnRoss">
+					Github
+				</a>
+			</li>
+			<li>
+				<a class="footer-link" target="_blank" href="https://www.linkedin.com/in/hjohnross/">
+					Linkedin
+				</a>
+			</li>
+		</ul>
+	</footer>
+
+
+	<script src="./scripts/projects.js"></script>
+	<script>
+		initProjects({containerId: "projects", featuredOnly: false})
+	</script>
+</body>
+
+</html>
