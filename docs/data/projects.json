@@ -5,7 +5,7 @@
 		"title": "LCB Clone V2 (Learning Project)",
 		"goal": "Learn maintainable ASP.NET Core patterns using a realistic application domain.",
 		"bullets": [
-			"Blazor frontend + .NET backend + shared DTO project.",
+			"Blazor frontend + .NET backend + shared DTO project + Unit Testing Project.",
 			"SQL database with Entity Framework Core (EF Core).",
 			"Currently uses Minimal APIs; planning a transition to controllers as learning progresses."
 		],
