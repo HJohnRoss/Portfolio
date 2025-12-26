@@ -117,6 +117,7 @@
 		"bullets": [
 			"Configured a VyOS router from scratch.",
 			"Set up and managed a WireGuard VPN on VyOS for remote access to internal services.",
+			"Configured Vlans on a Extreme 5520-24w switch running the VOSS OS.",
 			"Configured a Raspberry Pi as a local DNS server for ad blocking.",
 			"Set up a home server to host multiple services on the local network."
 		],
